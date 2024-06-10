@@ -1,14 +1,12 @@
 # （仮）手を動かして学ぶ　生成AIの使い方入門
 
----
+第2～5章ではGoogle Colaboratory（クラウド環境）を利用し，第6章ではJupyter Notebook（ローカル環境）を利用することに注意してください。
 
 ## 第2章
 
 ### Google Colaboratory によるAI応用
 
 【ノートブック】第2章MINST.ipynb: <https://colab.research.google.com/drive/1W1D7DOV9UymHLwgPR1HF3KfBtib5PkH0?usp=sharing>
-
----
 
 ## 第3章
 
@@ -19,8 +17,6 @@
 ### OpenAI API
 
 【ノートブック】第3章OpenAI_API入門.ipynb: <https://colab.research.google.com/drive/1TO5WdLi4ypL9N_V9FhIKO0-MQzQQyMol?usp=sharing>
-
----
 
 ## 第4章
 
@@ -50,8 +46,6 @@
 
 【ノートブック】第4章FunctionCalling.ipynb: <https://colab.research.google.com/drive/1NcbNyKQbodtdoaeNXV1LPGNZQ3iCfNkz?usp=sharing>
 
----
-
 ## 第5章
 
 ### Ultralytics
@@ -75,7 +69,22 @@
 - [dalle3face.png](data/dalle3face.png)
 - MVTec: <https://www.mvtec.com/company/research/datasets/mvtec-ad>
 
----
-
 ## 第6章
 
+### モデルの構築・学習
+
+【ノートブック】[train.ipynb](chapter6/train.ipynb)
+
+【データ】[dataset.zip](chapter6/dataset.zip)
+
+### モデルのテスト
+
+【ノートブック】[test.ipynb](chapter6/test.ipynb)
+
+### モデルのONNX変換
+
+【ノートブック】[convert.ipynb](chapter6/convert.ipynb)
+
+### 画像分類アプリケーションの実装
+
+【ノートブック】[app.ipynb](chapter6/app.ipynb)
