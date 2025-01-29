@@ -5,282 +5,141 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>手を動かして学ぶ 生成AI 使い方入門 サポートサイト</title>
 </head>
 
 <body>
     <div class="container">
-        <div><p></p></div>
-        <hr>
-        <div class="row">
-            <div class="col-2 mt-2">
-                <a href="https://www.amazon.co.jp/dp/4863544405"><img src="website_items/cover.jpg" alt="" width="100%"></a>
+        <div class="row border-top border-bottom border-dark mt-3 p-2">
+            <div class="col-2">
+                <a href="https://www.amazon.co.jp/dp/4863544405">
+                    <img src="website_items/cover.jpg" width="100%" class="border">
+                </a>
             </div>
             <div class="col-10 m-auto">
-                <h1 class="text-center"><font face="MS Mincho">手を動かして学ぶ 生成AI 使い方入門</font></h1>
-                <h1 class="text-center"><font face="MS Mincho">サポートサイト</font></h1>
+                <h1 class="text-center">
+                    <font face="MS Mincho">手を動かして学ぶ 生成AI 使い方入門</font>
+                </h1>
+                <h1 class="text-center">
+                    <font face="MS Mincho">サポートサイト</font>
+                </h1>
             </div>
         </div>
-        <hr>
 
-        <p></p>
-        <p>
+        <p class="mt-2">
             【筆者】
             <a href="http://pub2.db.tokushima-u.ac.jp/ERD/person/60564/profile-ja.html">石田 基広</a>（第1章～第5章）、
             <a href="http://pub2.db.tokushima-u.ac.jp/ERD/person/395180/profile-ja.html">鳥井 浩平</a>（第6章）
         </p>
-        <p>第2～5章ではGoogle Colaboratory（クラウド環境）を利用し、第6章ではJupyter Notebook（ローカル環境）を利用することに注意してください。</p>
-
-        <!-- Chapter 2 -->
-        <h2 class="border-bottom mt-5">第2章 クラウドサービスの利用</h2>
-
-        <h5 class="mt-3"></h5>
-        <div class="card" style="width: 18rem;">
-            <div class="card-header text-center">Google Colaboratory によるAI応用</div>
-            <div class="card-body">
-                <h5 class="card-title">
-                    <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                    <a href="https://colab.research.google.com/drive/1W1D7DOV9UymHLwgPR1HF3KfBtib5PkH0?usp=sharing">第2章MINST.ipynb</a>
-                </h5>
-            </div>
-        </div>
-
-        <!-- Chapter 3 -->
-        <h2 class="border-bottom mt-5">第3章 AIをカスタマイズする</h2>
+        <p>
+            第2～5章ではGoogle Colaboratory（クラウド環境）を利用し、第6章ではJupyter Notebook（ローカル環境）を利用することに注意してください。
+        </p>
 
         <div class="row row-cols-auto">
             <div class="col">
-                <div class="card mt-2" style="width: 18rem;">
-                    <div class="card-header text-center">プログラミング言語とは</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1ZGm0cMIEuTLDcXimqijFjEkSt-Gc9y1v?usp=sharing">第3章Python速習.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mt-2" style="width: 22rem;">
-                    <div class="card-header text-center">OpenAI API</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1TO5WdLi4ypL9N_V9FhIKO0-MQzQQyMol?usp=sharing">第3章OpenAI_API入門.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
+                <a href="all.zip" class="btn btn-primary fw-bold fs-5">
+                    データ一括ダウンロード
+                </a>
             </div>
         </div>
-   
-        <!-- Chapter 4 -->
-        <h2 class="border-bottom mt-5">第4章 言語生成AI応用例</h2>
-     
-        <div class="row row-cols-auto">
-            <div class="col">
-                <div class="card mt-2" style="width: 30rem;">
-                    <div class="card-header text-center">Assistant APIの利用手順</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1nUIULOCxutMVDeiIrLLF9ARWJq6yYFbd?usp=sharing">第4章OpenAI Assistant API によるRAG.ipynb</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_pdf.png" alt="" width="30rem">
-                            <a href="https://www.mext.go.jp/content/20210315-mxt_senmon01-000020844_4.pdf">数理・データサイエンス・ＡＩ教育プログラム認定制度（応用基礎レベル）実施要綱細目</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col">
-                <div class="card mt-2" style="width: 18rem;">
-                    <div class="card-header text-center">Azureハイブリッド検索</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1mMRWB2oyN2nfYFoGj9ZVrXRpkE1pU6Ee?usp=sharing">第4章WordVector.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card mt-2" style="width: 26rem;">
-                    <div class="card-header text-center">情報抽出</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1ddcEY36DTkwlFl5GrMT2N76z9y_RmZie?usp=sharing">第4章OpenAI API で情報抽出.ipynb</a>
-                        </h5>
-                        <p></p>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_pdf.png" alt="" width="30rem">
-                            <a href="./data/invoice.pdf">invoice.pdf</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 30rem;">
-                    <div class="card-header text-center">音声起こし</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1wK0kBcBlqFPFB53zscz0Pip7VRLzA1Kw?usp=sharing">第4章OpenAI whisperによる文字起こし.ipynb</a>
-                        </h5>
-                        <p></p>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_m4a.png" alt="" width="30rem">
-                            <a href="./data/レコーディング.m4a">レコーディング.m4a</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 20rem;">
-                    <div class="card-header text-center">Function Calling</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1NcbNyKQbodtdoaeNXV1LPGNZQ3iCfNkz?usp=sharing">第4章FunctionCalling.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
+        <div class="border mt-4 p-2">
+            <h3>第2章 クラウドサービスの利用</h3>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="https://colab.research.google.com/drive/1GrREmfRqL9D1yk4cVSuZd514D-FJA4yd?usp=sharing">
+                    第2章クラウドサービスの利用.ipynb
+                </a>
+            </p>
         </div>
 
-        <h2 class="border-bottom mt-5">第5章 クラウド環境による簡易的な画像認識</h2>
-
-        <div class="row row-cols-auto">
-
-            <div class="col">
-                <div class="card mt-2" style="width: 16rem;">
-                    <div class="card-header text-center">Ultralytics</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1uOFOjqAfUQEflQTZGq4zBPtc1QwPMnRH?usp=sharing">第5章YOLO.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 20rem;">
-                    <div class="card-header text-center">動画に映っている物体の判定</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/1d8SkWQhucPVW5NlDzrPtiyeoM-EXyViL?usp=sharing">第5章動画の物体判定.ipynb</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_website.png" alt="" width="30rem">
-                            <a href="https://www.pexels.com/ja-jp/">Pexels</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 18rem;">
-                    <div class="card-header text-center">MediaPipeによるポーズ推定</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="https://colab.research.google.com/drive/15lyviKKLStJH-pBqcqvfG1HS2Xetaa82?usp=sharing">第5章MediaPipe.ipynb</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_website.png" alt="" width="30rem">
-                            <a href="https://gahag.net/">gahag</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_pic.png" alt="" width="30rem">
-                            <a href="./data/golf.png">golf.png</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_pic.png" alt="" width="30rem">
-                            <a href="./data/dalle3face.png">dalle3face.png</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_website.png" alt="" width="30rem">
-                            <a href="https://www.mvtec.com/company/research/datasets/mvtec-ad">MVTec</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
+        <div class="border mt-4 p-2">
+            <h3>第3章 AIをカスタマイズする</h3>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="https://colab.research.google.com/drive/1TO5WdLi4ypL9N_V9FhIKO0-MQzQQyMol?usp=sharing">
+                    第3章AIをカスタマイズする.ipynb
+                </a>
+            </p>
         </div>
 
-        <h2 class="border-bottom mt-5">第6章 画像認識AIの基礎</h2>
-
-        <div class="row row-cols-auto">
-            <div class="col">
-                <div class="card mt-2" style="width: 12rem;">
-                    <div class="card-header text-center">モデルの構築・学習</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="./chapter6/train.ipynb">train.ipynb</a>
-                        </h5>
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_zip.png" alt="" width="30rem">
-                            <a href="./chapter6/dataset.zip">dataset.zip</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 12rem;">
-                    <div class="card-header text-center">モデルのテスト</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="./chapter6/test.ipynb">test.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 14rem;">
-                    <div class="card-header text-center">モデルのONNX変換</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="./chapter6/convert.ipynb">convert.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card mt-2" style="width: 16rem;">
-                    <div class="card-header text-center">画像分類アプリケーションの実装</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="./website_items/icon_colab.png" alt="" width="30rem">
-                            <a href="./chapter6/app.ipynb">app.ipynb</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-
+        <div class="border mt-4 p-2">
+            <h3>第4章 言語生成AI応用例</h3>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="https://colab.research.google.com/drive/1h4iahzQ9Uwx-FQrVhmjKpru4q6YBKxw1?usp=sharing#scrollTo=VZvqxckzDrci">
+                    第4章言語生成AI応用例.ipynb
+                </a>
+            </p>
+            <p>
+                <img src="/website_items/icon_pdf.png" alt="" width="30rem">
+                <a
+                    href="https://www.mext.go.jp/content/20210315-mxt_senmon01-000020844_004.pdf">数理・データサイエンス・ＡＩ教育プログラム認定制度（応用基礎レベル）実施要綱細目</a>
+            </p>
+            <p>
+                <img src="./website_items/icon_pdf.png" alt="" width="30rem">
+                <a href="/chapter4/invoice.pdf">invoice.pdf</a>
+            </p>
+            <p>
+                <img src="./website_items/icon_m4a.png" alt="" width="30rem">
+                <a href="/chapter4/レコーディング.m4a">レコーディング.m4a</a>
+            </p>
         </div>
 
+        <div class="border mt-4 p-2">
+            <h3>第5章 クラウド環境による簡易的な画像認識</h3>
+            <p>
+                <img src="./website_items/icon_colab.png" alt="" width="30rem">
+                <a href="https://colab.research.google.com/drive/1pHp_WLzfGJxwMmDsFcWvKRak7p7nA2ux?usp=sharing">
+                    第5章クラウド環境による簡易的な画像認識.ipynb</a>
+            </p>
+            <p>
+                <img src="/website_items/icon_pic.png" alt="" width="30rem">
+                <a href="/chapter5/golf.png">golf.png</a>
+            </p>
+            <p>
+                <img src="/website_items/icon_pic.png" alt="" width="30rem">
+                <a href="/chapter5/dalle3face.png">dalle3face.png</a>
+            </p>
+            <p>GAHAG: <a href="https://gahag.net/">https://gahag.net/</a></p>
+            <p>Pixels: <a href="https://www.pexels.com/ja-jp/">https://www.pexels.com/ja-jp/</a></p>
+            <p>MVTec: <a href="https://www.mvtec.com/company/research/datasets/mvtec-ad">https://www.mvtec.com/company/research/datasets/mvtec-ad</a></p>
+        </div>
+
+        <div class="border mt-4 p-2">
+            <h3>第6章 画像認識AIの基礎</h3>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="/chapter6/train.ipynb">train.ipynb</a>
+            </p>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="/chapter6/test.ipynb">test.ipynb</a>
+            </p>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="/chapter6/convert.ipynb">convert.ipynb</a>
+            </p>
+            <p>
+                <img src="/website_items/icon_colab.png" alt="" width="30rem">
+                <a href="/chapter6/app.ipynb">app.ipynb</a>
+            </p>
+            <p>
+                <img src="/website_items/icon_zip.png" alt="" width="30rem">
+                <a href="/chapter6/dataset.zip">dataset.zip</a>
+            <p>
+        </div>
 
         <footer>
-            <p class="text-center border-top mt-5">Copyright (C) 2024 Motohiro Ishida, Kohei Torii</p>
+            <p class="text-center border-top mt-5">&copy; 2025 Motohiro Ishida, Kohei Torii</p>
         </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </body>
 
